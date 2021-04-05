@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: violet;
+  font-size: 2.8rem;
+  display: grid;
+}
+
+.container{
+  display: inline-block;
+  margin: auto;
+  width: 80%;
+  padding: 30px;
+  background-color: aqua;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 50px auto 20px auto;
+}
+
+button {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color:rgb(14, 4, 7);
+  border: brown solid 1px;
+  border-radius: 8px;
+  background-color: rgb(255, 242, 218);
+  display: block;
+}
+
+button:hover{
+  background-color: wheat;
+}
+
+img {
+  margin-top: 50px;
+  max-width: 20vw;
+}
+
+.dice {
+  margin-top: 2rem;
+}
+
+#result {
+  margin-top: 3rem;
+  text-align: center;
+}
