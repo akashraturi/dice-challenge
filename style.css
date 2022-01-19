@@ -5,8 +5,8 @@
 }
 
 body{
-  background-color: violet;
-  font-size: 2.8rem;
+  background-color: rgb(117, 8, 117);
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,13 +14,14 @@ body{
 }
 
 .container{
-  border: darkslateblue 15px solid;
+  border: rgb(52, 41, 126) 15px solid;
   width: 80%;
+  height: 80vh;
   padding: 50px;
   background-color: aqua;
 }
 
-main {
+section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -34,15 +35,16 @@ button {
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
-  color:rgb(14, 4, 7);
-  border: brown solid 1px;
+  color:rgb(255, 251, 252);
+  border: rgba(77, 22, 22, 0.808) solid 1px;
   border-radius: 8px;
-  background-color: rgb(255, 242, 218);
+  background-color: rgb(75, 49, 1);
   display: block;
 }
 
 button:hover{
-  background-color: wheat;
+  background-color: rgb(221, 176, 92);
+  color:black;
 }
 
 img {
@@ -55,6 +57,7 @@ img {
 }
 
 #result {
+  height: 2rem;
   margin-top: 3rem;
   text-align: center;
 }
